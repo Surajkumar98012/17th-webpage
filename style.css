@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+p{
+	padding-right: 110px;
+	padding-top: 14px;
+	font-size: 9px;
+}
+#main{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	padding-top: 80px;
+	display: grid;
+	grid-template-columns: 170px 170px;
+	grid-template-rows: 250px 250px;
+	grid-row-gap:5px;
+	grid-column-gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+#main>div{
+	height: 230px;
+	width: 170px; 
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+#first{
+	background-color: rgb(125,115,225);
+    
+}
+#second{
+	background-color: rgb(125,11,225);
+}
+#third{
+	background-color: rgb(12,115,225);
+}
+#fourth{
+	background-color: rgb(15,215,125);
+}
